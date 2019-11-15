@@ -4,55 +4,52 @@
 % favicon: http://www.stanford.edu/favicon.ico
 
 ---
-title: Intro slide
+
+<img src="figures/qcvc.png" width=900px alt="Quantum computing for the very curious" />
+
+Andy Matuschak and Michael A. Nielsen, “Quantum Computing for the Very Curious”, https://quantum.country/qcvc, San Francisco (2019).
+Authors are listed in alphabetical order.
+
+---
+title: Questions
 build_lists: true
 
-Here is a list that should build:
-
-- I like formulas, like this one $e=mc^2$
-- It's rendered using MathJax. You can change the settings by editing base.html if you like
-- pressing 'f' toggle fullscreen
-- pressing 'w' toggles widescreen
-- 'o' toggles overview mode
-
----
-title: Slide with a figure
-subtitle: Subtitles are cool too
-class: img-top-center
-
-<img height=150 src=figures/200px-6n-graf.svg.png />
-
-- Some point to make about about this figure from wikipedia
-- This slide has a class that was defined in theme/css/custom.css
-
-<footer class="source"> Always cite your sources! </footer>
+- What are quantum computers?
+- Can they do anything that classical computers can't?
+- Can they do anything faster than classical computers?
+- What is quantum supremacy?
+- Will they break all our crypto?
+- What *are* they good for?
 
 ---
-title: Segue slide
-subtitle: I can haz subtitlz?
-class: segue dark nobackground
+title: Quantum circuits
+
+![A quantum circuit](figures/general_circuit-1x.png)
 
 ---
-title: Maybe some code?
+title: Qubits
 
-press 'h' to highlight an important section (that is highlighted
-with &lt;b&gt;...&lt;/b&gt; tags)
+![The state of a qubit](figures/qubit_state.png)
 
-<pre class="prettyprint" data-lang="javascript">
-function isSmall() {
-  return window.matchMedia("(min-device-width: ???)").matches;
-}
+---
+title: Projective geometry
 
-<b>function hasTouch() {
-  return Modernizr.touch;
-}</b>
+---
+title: The Bloch sphere
 
-function detectFormFactor() {
-  var device = DESKTOP;
-  if (hasTouch()) {
-    device = isSmall() ? PHONE : TABLET;
-  }
-  return device;
-}
-</pre>
+<img alt="The Bloch sphere" src="figures/bloch_sphere.svg" width=400px />
+
+By <a href="//commons.wikimedia.org/w/index.php?title=User:Smite-Meister&amp;action=edit&amp;redlink=1" class="new" title="User:Smite-Meister (page does not exist)">Smite-Meister</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=5829358">Link</a>
+
+---
+title: The quantum search algorithm
+
+<img alt="rotating state vectors" src="figures/delta_definition-1x.png" width=500px />
+
+---
+title: Faster, pussycat! Kill! Kill! Kill!
+
+![complexity classes](figures/bqp.svg)
+
+By <a href="//commons.wikimedia.org/wiki/User:Mike1024" title="User:Mike1024">Mike1024</a> - Own work based on: <a href="//commons.wikimedia.org/wiki/File:Complexity_classes.svg" title="File:Complexity classes.svg">Complexity classes.svg</a>&nbsp;by&nbsp;<a href="//commons.wikimedia.org/wiki/User:Booyabazooka" class="mw-redirect" title="User:Booyabazooka">Booyabazooka</a>., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1676927">Link</a>
 
